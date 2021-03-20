@@ -7,7 +7,7 @@ const test = require("./programmingProject.js");
 
 describe("porcupine number", function () {
   it("the first porcupine number is 139", function () {
-    function findPorcupineNumber(num) {}
+    function findPorcupineNumber(start, end) {}
     assert.strictEqual(test.findPorcupineNumber(3), 139);
   });
 
@@ -17,7 +17,7 @@ describe("porcupine number", function () {
   });
 
   it("the first porcupine number is 139", function () {
-    function findPorcupineNumber(num) {}
+    function findPorcupineNumber(start,end) {}
     assert.strictEqual(test.findPorcupineNumber(138), 139);
   });
 });
